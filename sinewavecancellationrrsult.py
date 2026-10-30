@@ -31,3 +31,6 @@ plt.plot(phis, 20*np.log10(residual))
 plt.axhline(0, color='r', ls='--', label='no ANC (0 dB)')
 plt.xlabel("phase error (degrees)"); plt.ylabel("noise change (dB)")
 plt.title("Cancellation vs phase error"); plt.legend(); plt.grid(); plt.show()
+
+
+ 
